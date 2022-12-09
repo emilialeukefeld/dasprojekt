@@ -1,4 +1,7 @@
- const canvas = document.getElementById("pong")  //um canvas auswählen
+//besser gings nicht, nach vielen versuchen, bitte geben sie uns 1 punkt - emilia
+
+
+const canvas = document.getElementById("pong")  //um canvas auswählen
  const context = canvas.getContext("2d"); //const damit nur einmalige eingabe
 //alle objekte werden als const bezeichnet
 //SPIELER TOR
@@ -104,7 +107,5 @@ function drawRechteck(x,y,w,h,color) { //alles definieren
 //loop
  const framePerSecond = 50;
  setInterval(spiel,1000/framePerSecond) //50 mal alle 1000ms =1 sec
-
-
 
 
